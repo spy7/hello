@@ -20,6 +20,14 @@
                 "--no-reload"
             ],
             "justMyCode": true
+        },
+        {
+            "name": "Prompt",
+            "type": "python",
+            "request": "launch",
+            "module": "src.prompt",
+            "console": "integratedTerminal",
+            "justMyCode": true
         }
     ]
 }
