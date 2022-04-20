@@ -8,8 +8,17 @@
             "name": "Hello",
             "type": "python",
             "request": "launch",
-            "module": "src.hello",
+            "module": "flask",
             "console": "integratedTerminal",
+            "env": {
+                "FLASK_APP": "src.hello",
+                "FLASK_ENV": "development"
+            },
+            "args": [
+                "run",
+                "--no-debugger",
+                "--no-reload"
+            ],
             "justMyCode": true
         }
     ]
