@@ -9,4 +9,4 @@ print("Type a message:")
 message = input()
 
 compare = Compare("Hello, world!", message)
-print(f"Similar: {compare.diff():.1f}%")
+print(f"Diff: {compare.diff():.1f}%")
