@@ -5,13 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Hello",
+            "name": "Server",
             "type": "python",
             "request": "launch",
             "module": "flask",
             "console": "integratedTerminal",
             "env": {
-                "FLASK_APP": "src.hello",
+                "FLASK_APP": "src.server",
                 "FLASK_ENV": "development"
             },
             "args": [
@@ -22,10 +22,10 @@
             "justMyCode": true
         },
         {
-            "name": "Prompt",
+            "name": "Hello",
             "type": "python",
             "request": "launch",
-            "module": "src.prompt",
+            "module": "src.hello",
             "console": "integratedTerminal",
             "justMyCode": true
         }
