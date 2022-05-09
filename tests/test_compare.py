@@ -14,4 +14,4 @@ class TestCompare:
 
     def test_diff_with_similar_message(self):
         compare = Compare(self.TITLE, "Hello")
-        assert int(compare.diff()) == 25
+        assert int(compare.diff()) == 28
