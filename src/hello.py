@@ -1,9 +1,9 @@
 from art import text2art
 
-from .screen import GREEN, NC
+from .screen import YELLOW, NC
 from .compare import Compare
 
-print(GREEN + text2art("Hello, world!") + NC)
+print(YELLOW + text2art("Hello, world!") + NC)
 
 print("Type a message:")
 message = input()
